@@ -4,6 +4,7 @@ const btns=document.querySelectorAll("button");
 const[italicBtn, boldBtn, colorBtn, backgroundBtn, resetBtn, customBtn] = btns;
 
 class App {
+    
     constructor(){
        
         this.keys=[]
