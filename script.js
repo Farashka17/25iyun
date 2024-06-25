@@ -12,7 +12,7 @@ class App {
         boldBtn.addEventListener("click",this.toggleBold)
         colorBtn.addEventListener("click",this.changeColor)
         backgroundBtn.addEventListener("click",this.changeBgColor)
-        customBtn.addEventListener("click",this.addCustomStyle)
+        customBtn.addEventListener("click",this.addCustomStyle.bind(this))
         resetBtn.addEventListener("click",this.resetStyles.bind(this))
     }
 
